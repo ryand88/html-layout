@@ -1,0 +1,35 @@
+.top-box{
+    width: 100%;
+    height: 15%;
+    background-color:#404040;
+  position: absolute;
+  top: 0px;
+  left: 0px; 
+}
+
+
+.side{
+    width: 10%;
+    height: 100%;
+    background-color: gray;
+    position: absolute;
+}
+
+.left{
+    top: 15%;
+    left: 0px;
+}
+
+.right{
+    top: 15%;
+    left: 90%;
+}
+
+.bottom{
+    width: 80%;
+    height: 8%;
+    background-color:black;
+    position: absolute;
+    top: 92%;
+    left: 10%; 
+}
