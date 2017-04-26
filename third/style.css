@@ -1,0 +1,9 @@
+#num1,#num2{
+    display : inline
+    position:relative;
+    left:50px;
+    height: 50px;
+    width: 100%;
+    background-color: red;
+}
+
