@@ -1,16 +1,50 @@
-#container{
-    position:absolute;
+body{
+    margin: 0px;
+    position: absolute;
     height: 100%;
     width: 100%;
 }
 
-#num1,#num2{
-    display : inline
-    position:relative;
-    left:50px;
-    height: 50px;
+.box{
+    position: relative;
     width: 100%;
-    background-color: red;
-    vertical-align: bottom;
+}
+
+.top{
+    height: 14%;
+    background-color: lightgray;
+}
+    
+p{
+        margin-right:15px;
+    margin-left:15px;
+    font-family: sans-serif;
+        font-size: 20px;
+position: relative;
+float: left;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.text-box{
+
+    text-align: center;
+    height: 30%;
+    background-color: white;
+}
+
+.lower{
+    height: 14%; 
+}
+
+#small{
+display: inline-block;
+    position: relative;
+top: 8%;
+left: 3%;
+  height:84%;
+  width:12%;
+  background-color: cornflowerblue;  
 }
 
